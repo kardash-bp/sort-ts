@@ -3,7 +3,10 @@ interface Sortable {
   compare(left: number, right: number): boolean
   swap(left: number, right: number): void
 }
-export class Sorter {
+export abstract class Sorter {
+  abstract compare(left: number, right: number): boolean
+  abstract swap(left: number, right: number): void
+  abstract length: number
   sort(): void {
     const { length } = this
     for (let i = 0; i < length; i++) {
