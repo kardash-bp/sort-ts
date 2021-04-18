@@ -1,6 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
+// interface Sortable {
+//   length: number
+//   compare(left: number, right: number): boolean
+//   swap(left: number, right: number): void
+// }
 var Sorter = /** @class */ (function () {
     function Sorter() {
     }

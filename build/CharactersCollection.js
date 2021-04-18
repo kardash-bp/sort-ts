@@ -20,7 +20,7 @@ var Sorter_1 = require("./Sorter");
 var CharactersCollection = /** @class */ (function (_super) {
     __extends(CharactersCollection, _super);
     function CharactersCollection(data) {
-        var _this = this;
+        var _this = _super.call(this) || this;
         _this.data = data;
         return _this;
     }
